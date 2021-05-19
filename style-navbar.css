@@ -1,0 +1,376 @@
+
+body{
+    margin: 0px;
+    background-color:#f5a733 ; 
+    overflow:scroll;
+    position: absolute;
+    scroll-behavior: smooth; 
+}
+
+.nav_bar{
+    background-color:#000000;
+    height: 3rem;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 50%;
+    }
+
+
+.appetite-logo img{
+        display: block;
+        padding: 3rem 0 0 0;
+}
+
+.Whole-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: -4rem 0 -2rem 0;
+    float: left;
+    position: fixed;
+    width: 100%;
+}
+
+  .navbar-options>a{
+        margin: 1rem 0 -1rem 0;
+        font-size: 25px;
+        cursor: pointer;
+        text-decoration: none;
+        overflow: hidden;
+        color:white;
+    }
+    .navbar-options>a:visited{
+        color:white;
+    }
+    .navbar-options>a:hover{
+        color: #ffce0e;
+    }
+
+    
+    
+    
+    #Home{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    
+    .restaurant-pic{
+        margin:8rem 2rem 0rem 0;
+        border: black;
+        border-radius: 10px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .text{
+        font-size: 20px;
+        margin: 15rem 5rem 5rem 5rem;
+        padding: 0;
+        color: black;
+        width: 400px;
+        text-align: center;
+        
+    }
+    .text h1{
+        line-height: 3rem;
+        letter-spacing: 0.5rem;
+
+    }
+    
+    .go-to-specialities{
+        text-decoration: none;
+        margin: 0 0 0 12rem;
+        font-size: 27px;
+        color:white;
+        background-color: black;
+        border-radius: 20px;
+        padding: 18px 20px ;
+        cursor: pointer;
+        font-weight: 300;
+    }
+    .go-to-specialities-div  a:hover {
+        color:#f5a733 ;
+      }
+    
+    .specialities-title{
+        margin: 20px 0px 20px 37rem;
+    }
+    .specialities-title-h{
+        background-color:black;
+        color: white;
+        font-weight: 100;
+        width: 11rem;
+        border-radius: 1rem;
+        padding: 3px 0rem 0px 2rem;
+    }
+    .specialities-subtitle{
+        margin: -19px 0px 20px 39rem;
+    }
+    .first-card-name{
+        font-size: 30px;
+    margin: 0px 0px 0px 2rem;
+        border-radius: 10px;
+    }
+    .first-card-image{
+        width: 300px;
+        height: 250px;
+    }
+    .add-button {
+        background-color: #f5a733;
+        border-radius: 15px;
+        color: black;
+        border-style: solid;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 20px 20px;
+        cursor: pointer;
+      }
+    .add-button:hover{
+          background-color: #e5d80e;
+          text-decoration-thickness:10px           ;
+      }
+      .add-button:focus{
+        background-color: green;
+    }
+    .add-button:focus::after{
+        content: "ED";  
+    }
+    .add-button:hover{
+        transform: scale( 1.1 ,1.1); 
+    }
+    .rupee{
+        font-size: 25px;
+       padding: 0px 0px -20px 30px;
+        
+        font-weight: 400;
+    }
+    .first-card{
+        margin: 30px 35px 0px 45px;
+        background-color: white;
+        width: 300px;
+        border-radius: 10px;
+        float: left;
+    }
+
+    .card-description{
+        padding: 10px 0px 10px 10px;
+        color: rgb(24, 22, 22);
+    }
+
+    .recommendations-title{
+        margin: 20px 0px 20px 570px;
+    }
+    .recommendations-title h1{
+        background-color:black;
+        color: white;
+        font-weight: 100;
+        width: 16rem;
+        border-radius: 1rem;
+        padding: 3px 1rem 0px 2rem;
+    }
+    .recommendations-subtitle{
+        margin: -19px 0px 20px 630px;
+    }
+    
+    
+    .search input{
+        background-image:url(images/search-pic.png);
+        background-size: 30px;
+        background-color: #f0f4fb;
+        background-repeat: no-repeat;
+        width: 300px;
+        padding-left: 20px;
+        height: 35px;
+        background-position: right center;
+        border-radius: 15px;
+        border-style: solid;
+    }
+
+    .search{
+        margin: 0px 0px 0px 570px;
+    }
+    .review-title{
+        margin: 20px 0px 0px 47rem;
+    }
+    .review-title h1{
+        background-color:black;
+        color: white;
+        font-weight: 100;
+        width: 7rem;
+        border-radius: 1rem;
+        padding: 3px 1rem 0px 2rem;
+    }
+    .review-subtitle{
+        margin: -25px 0px 0px 50rem;
+    }
+    .person-photo{
+        float: left;
+        margin: 1.5rem 2rem 0 1rem;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+
+    .rating{
+        margin: 0px 0px 0px 0px;
+    }
+    .review-card{
+        border-color: black;
+        margin: 0 0 30px 130px;
+        background-color: #ffffff;
+        width: 500px;
+        height: 100px;
+        border-radius: 10px;
+        text-align: justify;
+        
+    }
+    .sub{
+        padding: 1rem;
+    }
+    .customer-name{
+        padding: 10px 0px -4px 0px;
+    }
+
+    .feedback{
+        margin:0px 0px 0 0rem; 
+    }
+    .customers-review{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        float: left;
+    }
+    .name-box{
+        margin: 2rem 0 0 0rem;
+        border-radius: 2rem;
+        
+    }
+    
+    .name-box input:hover,.email input:hover,.rating-costumer input:hover,.feedback-costumer input:hover{
+        transform:scale(1.08 ,1.08);
+        border-color:#e5d80e        ;
+    }
+    .name-box input{
+        padding: 1rem 1rem  ;
+        width: 20rem;
+        border-radius: 2rem;
+        border-color:  rgb(3, 3, 3);
+    }
+    .email{
+        margin: 2rem 0 0 0rem;
+    }
+    .email input{
+        padding: 1rem 1rem  ;
+        width: 20rem;
+        border-radius: 2rem;
+        border-color:  rgb(3, 3, 3);
+    }
+    .rating-costumer{
+        margin: 2rem 0 0 0rem;
+    }
+    .rating-costumer input{
+        padding: 1rem 1rem  ;
+        width: 20rem;
+        border-radius: 2rem;
+        border-color:  rgb(3, 3, 3);
+    }
+    .feedback-costumer{
+        margin: 2rem 0 0 0rem;
+    }
+    .feedback-costumer input{
+        padding: 1rem 1rem  ;
+        width: 20rem;
+        border-radius: 2rem;
+        border-color:  rgb(3, 3, 3);
+    }
+    .submit {
+        margin: 2rem 0 0 0rem;
+    }
+    .submit:hover{
+        transform: scale(1.08,1.08);
+    }
+    .submit input{
+        width: 6rem;
+        height: 3rem;
+        border-radius: 2rem;
+        border-color:  rgb(3, 3, 3);
+    }
+    #review-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .fas fa-arrow-alt-circle-up{
+        color: #000;
+        
+    }
+    .footer{
+        width: 100%;
+        height: 5rem;
+        background-color: white;
+    }
+    .fa-arrow-alt-circle-up{
+        font-size: 5rem;
+         color: #000;
+          margin: 0 0 2rem 80rem ;
+           scroll-behavior:auto;
+    }
+.fa-facebook-square{
+    color: #3b5998;
+    
+}
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-youtube{
+    color: #FF0000;
+}
+.fa-linkedin{
+    color: #0e76a8;
+}
+.fab{
+    margin: 1rem ;
+    font-size: 2rem;
+}
+.follow-us{
+    font-size: 1.5rem;
+    color: black;
+    line-height: 3rem;
+    margin: 0 4rem;
+}
+
+
+.all-rights, .terms-cond, .privacy-policy{
+    font-size: 1.25rem;
+    color: black;
+    line-height: 3rem;
+    margin: 0 3rem;
+}
+.all-rights:visited, .terms-cond:visited, .privacy-policy:visited{
+    color: green;
+}
+.all-rights:hover, .terms-cond:hover, .privacy-policy:hover {
+    color:#f5a733;
+    
+}
